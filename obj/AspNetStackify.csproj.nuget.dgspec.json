@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Asp.Net Core\\Stackify\\AspNetStackify\\AspNetStackify.csproj": {}
+  },
+  "projects": {
+    "F:\\Asp.Net Core\\Stackify\\AspNetStackify\\AspNetStackify.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Asp.Net Core\\Stackify\\AspNetStackify\\AspNetStackify.csproj",
+        "projectName": "AspNetStackify",
+        "projectPath": "F:\\Asp.Net Core\\Stackify\\AspNetStackify\\AspNetStackify.csproj",
+        "packagesPath": "C:\\Users\\Alpesh Boricha\\.nuget\\packages\\",
+        "outputPath": "F:\\Asp.Net Core\\Stackify\\AspNetStackify\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alpesh Boricha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "StackifyLib.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "StackifyLib.CoreLogger": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
